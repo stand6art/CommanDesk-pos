@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="112" fill="#18181b"/>
+
+  <!-- Receipt shape -->
+  <rect x="148" y="88" width="216" height="288" rx="20" fill="white"/>
+  <!-- Wavy bottom of receipt -->
+  <path d="M148 340 Q166 364 184 340 Q202 316 220 340 Q238 364 256 340 Q274 316 292 340 Q310 364 328 340 Q346 316 364 340 L364 376 L148 376 Z" fill="white"/>
+
+  <!-- Header bar on receipt (blue) -->
+  <rect x="148" y="88" width="216" height="56" rx="20" fill="#3b82f6"/>
+  <rect x="148" y="116" width="216" height="28" fill="#3b82f6"/>
+
+  <!-- Fork icon on header -->
+  <rect x="220" y="100" width="8" height="28" rx="4" fill="white" opacity="0.9"/>
+  <rect x="212" y="100" width="4" height="16" rx="2" fill="white" opacity="0.9"/>
+  <rect x="228" y="100" width="4" height="16" rx="2" fill="white" opacity="0.9"/>
+
+  <!-- Knife icon on header -->
+  <rect x="284" y="100" width="8" height="28" rx="4" fill="white" opacity="0.9"/>
+  <rect x="284" y="100" width="8" height="10" rx="0" fill="white" opacity="0.7"/>
+
+  <!-- Lines on receipt body -->
+  <rect x="176" y="166" width="160" height="12" rx="6" fill="#18181b" opacity="0.75"/>
+  <rect x="176" y="190" width="100" height="8" rx="4" fill="#d4d4d8"/>
+  <rect x="176" y="208" width="130" height="8" rx="4" fill="#d4d4d8"/>
+  <rect x="176" y="226" width="80" height="8" rx="4" fill="#d4d4d8"/>
+
+  <!-- Divider -->
+  <rect x="176" y="250" width="160" height="2" rx="1" fill="#e4e4e7"/>
+
+  <!-- Total -->
+  <rect x="176" y="264" width="60" height="10" rx="5" fill="#d4d4d8"/>
+  <rect x="284" y="264" width="52" height="10" rx="5" fill="#18181b" opacity="0.75"/>
+
+  <!-- Blue button on receipt -->
+  <rect x="176" y="292" width="160" height="44" rx="10" fill="#3b82f6"/>
+  <rect x="206" y="309" width="100" height="10" rx="5" fill="white" opacity="0.9"/>
+</svg>
